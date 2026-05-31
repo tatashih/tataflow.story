@@ -18,14 +18,12 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
-
 .story-img {
   width: 100%;
   display: block;
   opacity: 0;
   transform: translateY(16px);
   transition: opacity .65s ease, transform .65s ease;
-  /* 確保瀏覽器不做額外插值模糊 */
   image-rendering: -webkit-optimize-contrast;
 }
 .story-img.visible { opacity: 1; transform: translateY(0); }
@@ -53,7 +51,6 @@ body {
   pointer-events: none;
 }
 .cta-inner { position: relative; z-index: 1; max-width: 380px; margin: 0 auto; }
-
 .cta-card {
   background: rgba(255,255,255,.12);
   border: .5px solid rgba(255,255,255,.22);
@@ -121,7 +118,8 @@ body {
 <img class="story-img" src="story-p1.jpg" alt="40歲零醫美，從小痘痘肌靠居家循環保養養出好膚質" loading="eager">
 <img class="story-img" src="story-p2.jpg" alt="35歲後衰老問題與現在40歲的改變歷程" loading="lazy">
 <img class="story-img" src="story-p3.jpg" alt="讓皮膚改變的3大關鍵：養膚打底、循環疏通、筋膜放鬆" loading="lazy">
-<img class="story-img" src="story-p4.jpg" alt="現在的我——如果妳也有這些困擾可以從這裡開始" loading="lazy">
+<img class="story-img" src="story-p4.jpg" alt="臉部循環保養攻略：我的循環保養SOP" loading="lazy">
+<img class="story-img" src="story-p5.jpg" alt="現在的我——如果妳也有這些困擾可以從這裡開始" loading="lazy">
 
 <section class="cta-section">
   <div class="cta-inner">
